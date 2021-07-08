@@ -5,7 +5,7 @@
       "projectType": "application",
       "root": "apps/mm-website",
       "sourceRoot": "apps/mm-website/src",
-      "prefix": "million-token-workspace",
+      "prefix": "mm",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -21,7 +21,7 @@
               "apps/mm-website/src/favicon.ico",
               "apps/mm-website/src/assets"
             ],
-            "styles": ["apps/mm-website/src/styles.scss"],
+            "styles": ["./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css", "apps/mm-website/src/styles.scss"],
             "scripts": []
           },
           "configurations": {

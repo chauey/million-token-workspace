@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'million-token-workspace-root',
+  selector: 'mm-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
