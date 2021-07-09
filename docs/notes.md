@@ -1,50 +1,58 @@
-WHAT THIS IS
+# TODO
 
-TODO
 - split into shared libs for SharedUiModule, MaterialUIModule
 - add storybook
 - add playright
 - add erc20 token
 - add Cardano/ADA token
 
-Workspace TimeLine
-NX WORKSPACE (https://nx.dev/latest/angular/getting-started/nx-setup)
-npx create-nx-workspace
-- million-token-workspace
-- angular
- - mm-website
+# WORKSPACE SET UP
 
-ANGULAR MATERIAL (https://material.angular.io/guide/getting-started)
-nx add @angular/material
-- Choose a prebuilt theme name, or "custom" for a custom theme: Pink/Blue Grey     [ Preview: https://material.angular.io?theme=pink-bluegrey ]
-- Set up global Angular Material typography styles? (y/N) y
-- Set up browser animations for Angular Material? Yes
+- NX WORKSPACE (https://nx.dev/latest/angular/getting-started/nx-setup)
 
-FLEX LAYOUT (https://github.com/angular/flex-layout)
-npm i -s @angular/flex-layout @angular/cdk
+  `npx create-nx-workspace`
 
-npm install ngx-page-scroll-core --save
-npm install ngx-page-scroll --save
+  - million-token-workspace
+    - angular
+    - mm-website
 
-GITHUB PAGES
+- ANGULAR MATERIAL (https://material.angular.io/guide/getting-started)
 
-RESOURCE
-http://milliontoken.org
-https://github.com/techleadhd/milliontoken
+  `nx add @angular/material`
 
-SOCIAL MEDIA/COMMUNITY
-twitter
-discord
-facebook
-youtube
+  - Choose a prebuilt theme name, or "custom" for a custom theme: Pink/Blue Grey [ Preview: https://material.angular.io?theme=pink-bluegrey ]
+  - Set up global Angular Material typography styles? (y/N) y
+  - Set up browser animations for Angular Material? Yes
 
+- FLEX LAYOUT (https://github.com/angular/flex-layout)
 
-storybook
-jest
-cypress
-playright
+  `npm i -s @angular/flex-layout @angular/cdk`
 
-ci:
-docs:
-feature():
-fix:
+- NGX PAGE-SCROLL
+
+  `npm install ngx-page-scroll-core --save`
+
+  `npm install ngx-page-scroll --save`
+
+# RESOURCES
+
+- http://milliontoken.org
+- https://github.com/techleadhd/milliontoken
+
+# SOCIAL MEDIA/COMMUNITY
+
+- twitter
+- discord
+- facebook
+- youtube
+
+# CONTRIBUTIONS
+
+## GITHUB
+
+COMMIT COMMENTS
+
+- ci:
+- docs:
+- feature():
+- fix:
